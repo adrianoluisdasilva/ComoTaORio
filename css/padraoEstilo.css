@@ -1,0 +1,236 @@
+body
+{
+	overflow: scroll;
+	margin: 0;
+}
+
+th
+{
+	font-weight: normal;
+}
+
+#barra
+{
+	height: 45px;
+	margin: 0;
+	top: 0;
+}
+
+#menu
+{
+	margin: 0;
+	border: 0;
+	border-spacing: 0;
+	width: 100%;
+}
+
+#logotipo
+{
+	margin: 0;
+}
+
+#areaPrincipal
+{
+	margin: 20 0;
+}
+
+}
+.fonteArial
+{
+	font-family: "Arial"; "Sans-serif";
+}
+
+.fonteReduzido
+{
+	font-size: 0.5em;
+}
+
+.centralizado
+{
+	text-align: center;
+	align-content: center;
+	align-items: center;
+}
+
+.alturaEmDobro
+{
+	height: 20px;
+}
+
+.logotipo
+{
+	text-align: center;
+	marging: 0;
+	text-decoration: none;
+	font-weight: bold;
+	background: linear-gradient(to right, #2cc988, #58efab);
+}
+
+.alinhadoDireita
+{
+	text-align: right;
+}
+
+.tabela
+{
+	margin: 0 auto;
+	border: 0;
+	border-spacing: 0;
+	text-align: center;
+}
+
+.divCentralizada
+{
+	display: grid;
+	place-items: center
+}
+
+
+<!-- Tema claro -->
+.temaClaro
+{
+	color: black;
+	background-color: white;
+}
+
+.menuTemaClaro
+{
+	color: black;
+	background-color: white;
+}
+
+select-temaClaro
+{
+	background-color: white;
+}
+
+.tabelaLinhaPar
+{
+	background-color: lightgray;
+}
+
+.tabelaLinhaImpar
+{
+	background-color: Silver;
+}
+
+<!-- Tema escuro -->
+.temaEscuro
+{
+	color: white;
+	background-color: black;
+}
+
+.menuTemaEscuro
+{
+	color: white;
+	background-color: black;
+}
+
+<!-- Tema verde claro -->
+.temaVerdeClaro
+{
+	color: black;
+	background-color: #58efab;
+/*
+	background-color: lightgreen;
+*/
+	font-family: "Arial"; "Sans-serif";
+}
+
+.menuTemaVerdeClaro
+{
+	color: black;
+	background-color: #2cc988;
+/*
+	background-color: LightSeaGreen;
+*/
+	font-family: "Arial"; "Sans-serif";
+}
+
+select-temaVerdeClaro
+{
+	background-color: lightgray;
+}
+
+.tabelaLinhaImparVerde
+{
+	background-color: #16b677;
+/*
+	background-color: LightSeaGreen;
+*/
+}
+
+.tabelaLinhaParVerde
+{
+	background-color: #2cc988;
+/*
+	background-color: LightGreen;
+*/
+}
+
+<!-- Tema verde escuro -->
+.temaVerdeEscuro
+{
+	color: lightgreen;
+	background-color: LightSeaGreen;
+}
+
+.menuTemaVerdeEscuro
+{
+	color: LightSeaGreen;
+	background-color: lightgreen;
+}
+
+select-verdeEscuro
+{
+	background-color: lightgray;
+}
+
+/* Tooltip container */
+.tooltip {
+	position: relative;
+   /* display: inline-block; */
+	border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+	visibility: hidden;
+	width: 120px;
+	background-color: #ffffa2;
+	color: black;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 6px;
+  
+	/* Position the tooltip text */
+	position: absolute;
+	z-index: 1;
+	bottom: 125%;
+	left: 50%;
+	margin-left: -60px;
+  
+	/* Fade in tooltip */
+	opacity: 0;
+	transition: opacity 0.3s;
+  }
+  
+  /* Tooltip arrow */
+  .tooltip .tooltiptext::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #ffffa2 transparent transparent transparent;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+	visibility: visible;
+	opacity: 1;
+  }
+  
