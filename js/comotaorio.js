@@ -211,12 +211,12 @@ function carregarTabela(parametroCodigoLocal, parametroDataHora, parametroInterv
       ' ,"nivel":"5.33"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
-/*
       ' },'+
       ' {"datahora":"16/11/2023 20:00"'+
-      ' ,"nivel":"5.12"'+
+      ' ,"nivel":"5.65"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
+/*
       ' },'+
       ' {"datahora":"16/11/2023 21:00"'+
       ' ,"nivel":"5.12"'+
