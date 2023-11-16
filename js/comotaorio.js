@@ -201,12 +201,12 @@ function carregarTabela(parametroCodigoLocal, parametroDataHora, parametroInterv
       ' ,"nivel":"4.35"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
-/*
       ' },'+
       ' {"datahora":"16/11/2023 18:00"'+
-      ' ,"nivel":"5.12"'+
+      ' ,"nivel":"4.91"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
+/*
       ' },'+
       ' {"datahora":"16/11/2023 19:00"'+
       ' ,"nivel":"5.12"'+

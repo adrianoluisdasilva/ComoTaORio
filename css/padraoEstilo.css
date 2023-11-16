@@ -40,11 +40,6 @@ th
 	font-family: "Arial"; "Sans-serif";
 }
 
-.fonteReduzido
-{
-	font-size: 0.5em;
-}
-
 .centralizado
 {
 	text-align: center;
@@ -66,26 +61,14 @@ th
 	background: linear-gradient(to right, #2cc988, #58efab);
 }
 
-.alinhadoDireita
-{
-	text-align: right;
-}
-
 .tabela
 {
 	margin: 0 auto;
 	border: 0;
 	border-spacing: 0;
 	text-align: center;
-	font-size: 150%;
+	font-size: 1.5em;
 }
-
-.divCentralizada
-{
-	display: grid;
-	place-items: center
-}
-
 
 <!-- Tema claro -->
 .temaClaro
