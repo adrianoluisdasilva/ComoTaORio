@@ -152,55 +152,127 @@ function carregarTabela(parametroCodigoLocal, parametroDataHora, parametroInterv
    if (parametroCodigoLocal == 4216305)
    {
       var medicoesJSON = 
-      '[{"datahora":"01/01/1900 08:00"' +
-      ' ,"nivel":"4.5"'+
+      '[{"datahora":"16/11/2023 08:00"' +
+      ' ,"nivel":"0.56"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
       ' },'+
-      ' {"datahora":"01/01/1900 09:00"'+
-      ' ,"nivel":"4.55"'+
+      ' {"datahora":"16/11/2023 09:00"'+
+      ' ,"nivel":"0.56"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
       ' },'+
-      ' {"datahora":"01/01/1900 10:00"'+
-      ' ,"nivel":"4.72"'+
+      ' {"datahora":"16/11/2023 10:00"'+
+      ' ,"nivel":"0.64"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
       ' },'+
-      ' {"datahora":"01/01/1900 11:00"'+
-      ' ,"nivel":"5.27"'+
+      ' {"datahora":"16/11/2023 11:00"'+
+      ' ,"nivel":"0.79"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
       ' },'+
-      ' {"datahora":"01/01/1900 12:00"'+
-      ' ,"nivel":"6.34"'+
+      ' {"datahora":"16/11/2023 12:00"'+
+      ' ,"nivel":"1.15"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
       ' },'+
-      ' {"datahora":"01/01/1900 13:00"'+
-      ' ,"nivel":"7"'+
+      ' {"datahora":"16/11/2023 13:00"'+
+      ' ,"nivel":"1.65"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
       ' },'+
-      ' {"datahora":"01/01/1900 14:00"'+
-      ' ,"nivel":"7.00"'+
+      ' {"datahora":"16/11/2023 14:00"'+
+      ' ,"nivel":"2.22"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
       ' },'+
-      ' {"datahora":"01/01/1900 15:00"'+
-      ' ,"nivel":"6.99"'+
+      ' {"datahora":"16/11/2023 15:00"'+
+      ' ,"nivel":"2.89"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
       ' },'+
-      ' {"datahora":"01/01/1900 16:00"'+
-      ' ,"nivel":"6.45"'+
+      ' {"datahora":"16/11/2023 16:00"'+
+      ' ,"nivel":"3.63"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
       ' },'+
-      ' {"datahora":"01/01/1900 17:00"'+
+      ' {"datahora":"16/11/2023 17:00"'+
+      ' ,"nivel":"4.35"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+/*
+      ' },'+
+      ' {"datahora":"16/11/2023 18:00"'+
       ' ,"nivel":"5.12"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"16/11/2023 19:00"'+
+      ' ,"nivel":"5.12"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"16/11/2023 20:00"'+
+      ' ,"nivel":"5.12"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"16/11/2023 21:00"'+
+      ' ,"nivel":"5.12"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"16/11/2023 22:00"'+
+      ' ,"nivel":"5.12"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"16/11/2023 23:00"'+
+      ' ,"nivel":"5.12"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"17/11/2023 00:00"'+
+      ' ,"nivel":"5.12"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"17/11/2023 01:00"'+
+      ' ,"nivel":"5.12"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"17/11/2023 02:00"'+
+      ' ,"nivel":"5.12"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"17/11/2023 03:00"'+
+      ' ,"nivel":"5.12"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"17/11/2023 04:00"'+
+      ' ,"nivel":"5.12"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"17/11/2023 05:00"'+
+      ' ,"nivel":"5.12"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"17/11/2023 06:00"'+
+      ' ,"nivel":"5.12"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"17/11/2023 07:00"'+
+      ' ,"nivel":"5.12"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+*/
       ' }   ]';
    } else if (parametroCodigoLocal == 4202404)
    {
