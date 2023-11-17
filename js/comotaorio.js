@@ -320,6 +320,11 @@ function carregarTabela(parametroCodigoLocal, parametroDataHora, parametroInterv
       ' ,"nivel":"7.25"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"17/11/2023 18:00"'+
+      ' ,"nivel":"7.47"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
 /*
       ' },'+
       ' {"datahora":"17/11/2023 :00"'+
@@ -453,14 +458,8 @@ function carregarTabela(parametroCodigoLocal, parametroDataHora, parametroInterv
          nivelAnterior = medicao.nivel;
       }
       variacaoCalculadaMetro = Math.round(parseInt((parseFloat(medicao.nivel) - parseFloat(nivelAnterior)) * 100)) / 100;
-      variacaoCalculadaMetro = ((medicao.nivel * 100) - parseInt(nivelAnterior*100)) / 100;
-      /*
-      console.log('medicao.nivel=' + medicao.nivel);
-      console.log('nivelAnterior=' + nivelAnterior);
-      console.log('variacaoCalculadaMetro=' + variacaoCalculadaMetro);
-      console.log('(medicao.nivel - nivelAnterior)=' + (parseInt((medicao.nivel - nivelAnterior)*100)) / 100);
+      variacaoCalculadaMetro = (parseInt(medicao.nivel * 100) - parseInt(nivelAnterior*100)) / 100;
 
-*/
       if (  ( variacaoCalculadaMetro >= 0 && variacaoAnterior < 0)
          || ( variacaoCalculadaMetro <= 0 && variacaoAnterior > 0)
          )
