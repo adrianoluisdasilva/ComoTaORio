@@ -260,15 +260,15 @@ function carregarTabela(parametroCodigoLocal, parametroDataHora, parametroInterv
       ' ,"nivel":"6.16"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
-/*
       ' },'+
       ' {"datahora":"17/11/2023 06:00"'+
-      ' ,"nivel":"5.12"'+
+      ' ,"nivel":"6.02"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
+/*
       ' },'+
       ' {"datahora":"17/11/2023 07:00"'+
-      ' ,"nivel":"5.12"'+
+      ' ,"nivel":""'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
 */
