@@ -145,7 +145,6 @@ function carregarTabela(parametroCodigoLocal, parametroDataHora, parametroInterv
       ||	document.getElementById('Local').value == null
       )
    {
-      alert('return false');
       return false;
    }
 
@@ -216,12 +215,12 @@ function carregarTabela(parametroCodigoLocal, parametroDataHora, parametroInterv
       ' ,"nivel":"5.65"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
-/*
       ' },'+
       ' {"datahora":"16/11/2023 21:00"'+
-      ' ,"nivel":"5.12"'+
+      ' ,"nivel":"5.92"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
+/*
       ' },'+
       ' {"datahora":"16/11/2023 22:00"'+
       ' ,"nivel":"5.12"'+
