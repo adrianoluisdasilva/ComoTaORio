@@ -220,12 +220,12 @@ function carregarTabela(parametroCodigoLocal, parametroDataHora, parametroInterv
       ' ,"nivel":"5.92"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
-/*
       ' },'+
       ' {"datahora":"16/11/2023 22:00"'+
-      ' ,"nivel":"5.12"'+
+      ' ,"nivel":"6.12"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
+/*
       ' },'+
       ' {"datahora":"16/11/2023 23:00"'+
       ' ,"nivel":"5.12"'+
