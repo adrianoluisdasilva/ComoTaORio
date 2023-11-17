@@ -275,6 +275,16 @@ function carregarTabela(parametroCodigoLocal, parametroDataHora, parametroInterv
       ' ,"nivel":"5.84"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"17/11/2023 09:00"'+
+      ' ,"nivel":"5.84"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"17/11/2023 10:00"'+
+      ' ,"nivel":"5.90"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
       ' }   ]';
    } else if (parametroCodigoLocal == 4202404)
    {
@@ -400,8 +410,15 @@ function carregarTabela(parametroCodigoLocal, parametroDataHora, parametroInterv
       {
          nivelAnterior = medicao.nivel;
       }
-      variacaoCalculadaMetro = Math.round(((medicao.nivel - nivelAnterior) * 100).toFixed(2)) / 100;
+      variacaoCalculadaMetro = Math.round(parseInt((parseFloat(medicao.nivel) - parseFloat(nivelAnterior)) * 100)) / 100;
+      variacaoCalculadaMetro = (parseInt((medicao.nivel - nivelAnterior)*100)) / 100;
+/*
+      console.log('medicao.nivel=' + medicao.nivel);
+      console.log('nivelAnterior=' + nivelAnterior);
+      console.log('variacaoCalculadaMetro=' + variacaoCalculadaMetro);
+      console.log('(medicao.nivel - nivelAnterior)=' + (parseInt((medicao.nivel - nivelAnterior)*100)) / 100);
 
+*/
       if (  ( variacaoCalculadaMetro >= 0 && variacaoAnterior < 0)
          || ( variacaoCalculadaMetro <= 0 && variacaoAnterior > 0)
          )
@@ -474,7 +491,7 @@ function atualizarTabela()
    }
    else if (variacaoCalculadaMetroAbsoluto < 1)
    {
-      variacao.innerHTML = (variacaoCalculadaMetroAbsoluto * 100) + ' cm';
+      variacao.innerHTML = parseInt(variacaoCalculadaMetroAbsoluto * 100) + ' cm';
    } else
    {
       variacao.innerHTML = new Intl.NumberFormat('pt-br', duasCasasDecimais).format(variacaoCalculadaMetroAbsoluto) + ' m';
@@ -488,7 +505,7 @@ function atualizarTabela()
       }
    else if (variacaoAcumuladaMetroAbsoluto < 1)
    {
-      variacaoAcumulada.innerHTML = (variacaoAcumuladaMetroAbsoluto * 100) + ' cm';
+      variacaoAcumulada.innerHTML = parseInt(variacaoAcumuladaMetroAbsoluto * 100) + ' cm';
    } else
    {
       variacaoAcumulada.innerHTML = new Intl.NumberFormat('pt-br', duasCasasDecimais).format(variacaoAcumuladaMetroAbsoluto) + ' m';
