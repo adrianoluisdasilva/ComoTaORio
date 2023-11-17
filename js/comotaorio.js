@@ -290,6 +290,23 @@ function carregarTabela(parametroCodigoLocal, parametroDataHora, parametroInterv
       ' ,"nivel":"6.02"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"17/11/2023 12:00"'+
+      ' ,"nivel":"6.19"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"17/11/2023 13:00"'+
+      ' ,"nivel":"6.35"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+/*
+      ' },'+
+      ' {"datahora":"17/11/2023 14:00"'+
+      ' ,"nivel":"6.02"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+*/
       ' }   ]';
    } else if (parametroCodigoLocal == 4202404)
    {

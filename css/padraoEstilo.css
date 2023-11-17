@@ -41,7 +41,7 @@ th
 	color: black;
 }
 
-@media (min-width: 320)
+@media (max-width: 1024px) and (orientation: portrait)
 {
 	#areaPrincipal
 	{
