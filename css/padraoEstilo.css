@@ -69,6 +69,33 @@ th
 	
 }
 
+@media (max-width: 600px) and (orientation: portrait)
+{
+	#areaPrincipal
+	{
+		margin: 120 0;
+	}
+		#opcoes
+	{
+		font-size: 1.8em;
+	}
+
+	.tabela
+	{
+		font-size: 1.5em;
+	}
+
+	.logotipo
+	{
+		font-size: 1.3em;
+	}
+
+	.rodape
+	{
+		font-size: 1.3em;
+	}
+	
+}
 
 .fonteArial
 {
