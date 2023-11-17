@@ -35,12 +35,12 @@ th
 	margin: 20 0;
 }
 
-@media (max-width: 999.99px)
+@media (max-width: 999.99px) and (orientation=portrait), (max-height: 999.99px) and (orientation=landscape)
 {
 	#opcoes
 	{
 		font-size: 2em;
-		background: yellow;
+		background: red;
 	}
 
 	.tabela
