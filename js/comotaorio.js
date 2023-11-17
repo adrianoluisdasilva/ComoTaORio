@@ -147,7 +147,7 @@ function carregarTabela(parametroCodigoLocal, parametroDataHora, parametroInterv
    {
       return false;
    }
-   alert('A=' + document.body.clientHeight + ' L=' + document.body.clientWidth);
+
    if (parametroCodigoLocal == 4216305)
    {
       var medicoesJSON = 
