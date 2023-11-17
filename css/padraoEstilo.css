@@ -35,7 +35,13 @@ th
 	margin: 20 0;
 }
 
-@media (max-height: 999.99px) and (orientation=portrait), (max-width: 999.99px) and (orientation=landscape)
+.rodape
+{
+	text-decoration: none;
+	color: black;
+}
+
+@media (max-width: 999.99px) and (handheld)
 {
 	#areaPrincipal
 	{
@@ -44,7 +50,7 @@ th
 		#opcoes
 	{
 		font-size: 2em;
-		background: red;
+		background: blue;
 	}
 
 	.tabela
@@ -57,6 +63,11 @@ th
 		font-size: 1.3em;
 	}
 
+	.rodape
+	{
+		font-size: 1.3em;
+	}
+	
 }
 
 .fonteArial
