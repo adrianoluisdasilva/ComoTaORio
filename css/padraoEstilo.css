@@ -39,7 +39,8 @@ th
 {
 	#opcoes
 	{
-		font-size: 1.3em;
+		font-size: 1.5em;
+		background: yellow;
 	}
 
 	.tabela
@@ -49,7 +50,7 @@ th
 
 	#areaPrincipal
 	{
-		margin: 80 0;
+		margin: 100 0;
 	}
 
 }
