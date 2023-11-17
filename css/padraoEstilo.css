@@ -35,9 +35,13 @@ th
 	margin: 20 0;
 }
 
-@media (max-width: 999.99px) and (orientation=portrait), (max-height: 999.99px) and (orientation=landscape)
+@media (max-height: 999.99px) and (orientation=portrait), (max-width: 999.99px) and (orientation=landscape)
 {
-	#opcoes
+	#areaPrincipal
+	{
+		margin: 80 0;
+	}
+		#opcoes
 	{
 		font-size: 2em;
 		background: red;
@@ -48,9 +52,9 @@ th
 		font-size: 2em;
 	}
 
-	#areaPrincipal
+	.logotipo
 	{
-		margin: 100 0;
+		font-size: 1.3em;
 	}
 
 }
