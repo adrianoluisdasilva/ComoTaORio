@@ -310,6 +310,16 @@ function carregarTabela(parametroCodigoLocal, parametroDataHora, parametroInterv
       ' ,"nivel":"6.84"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"17/11/2023 16:00"'+
+      ' ,"nivel":"7.05"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"17/11/2023 17:00"'+
+      ' ,"nivel":"7.25"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
 /*
       ' },'+
       ' {"datahora":"17/11/2023 :00"'+
