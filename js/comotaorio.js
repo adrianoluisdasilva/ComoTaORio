@@ -225,42 +225,42 @@ function carregarTabela(parametroCodigoLocal, parametroDataHora, parametroInterv
       ' ,"nivel":"6.12"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
-/*
       ' },'+
       ' {"datahora":"16/11/2023 23:00"'+
-      ' ,"nivel":"5.12"'+
+      ' ,"nivel":"6.24"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
       ' },'+
       ' {"datahora":"17/11/2023 00:00"'+
-      ' ,"nivel":"5.12"'+
+      ' ,"nivel":"6.34"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
       ' },'+
       ' {"datahora":"17/11/2023 01:00"'+
-      ' ,"nivel":"5.12"'+
+      ' ,"nivel":"6.37"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
       ' },'+
       ' {"datahora":"17/11/2023 02:00"'+
-      ' ,"nivel":"5.12"'+
+      ' ,"nivel":"6.36"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
       ' },'+
       ' {"datahora":"17/11/2023 03:00"'+
-      ' ,"nivel":"5.12"'+
+      ' ,"nivel":"6.35"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
       ' },'+
       ' {"datahora":"17/11/2023 04:00"'+
-      ' ,"nivel":"5.12"'+
+      ' ,"nivel":"6.27"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
       ' },'+
       ' {"datahora":"17/11/2023 05:00"'+
-      ' ,"nivel":"5.12"'+
+      ' ,"nivel":"6.16"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
+/*
       ' },'+
       ' {"datahora":"17/11/2023 06:00"'+
       ' ,"nivel":"5.12"'+
