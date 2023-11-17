@@ -330,6 +330,11 @@ function carregarTabela(parametroCodigoLocal, parametroDataHora, parametroInterv
       ' ,"nivel":"7.65"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"17/11/2023 20:00"'+
+      ' ,"nivel":"7.77"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
 /*
       ' },'+
       ' {"datahora":"17/11/2023 :00"'+
