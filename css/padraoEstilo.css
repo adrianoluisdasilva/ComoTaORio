@@ -41,7 +41,7 @@ th
 	color: black;
 }
 
-@media (max-width: 999.99px) and (handheld)
+@media (min-width: 320)
 {
 	#areaPrincipal
 	{
@@ -50,7 +50,7 @@ th
 		#opcoes
 	{
 		font-size: 2em;
-		background: blue;
+		background: black;
 	}
 
 	.tabela

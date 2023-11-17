@@ -285,6 +285,11 @@ function carregarTabela(parametroCodigoLocal, parametroDataHora, parametroInterv
       ' ,"nivel":"5.90"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"17/11/2023 11:00"'+
+      ' ,"nivel":"6.02"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
       ' }   ]';
    } else if (parametroCodigoLocal == 4202404)
    {
