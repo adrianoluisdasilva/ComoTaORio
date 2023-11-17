@@ -270,6 +270,11 @@ function carregarTabela(parametroCodigoLocal, parametroDataHora, parametroInterv
       ' ,"nivel":"5.91"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"17/11/2023 08:00"'+
+      ' ,"nivel":"5.84"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
       ' }   ]';
    } else if (parametroCodigoLocal == 4202404)
    {

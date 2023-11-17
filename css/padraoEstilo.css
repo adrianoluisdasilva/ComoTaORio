@@ -30,6 +30,11 @@ th
 	background: rgba(0,0,0,0);
 }
 
+#opcoes
+{
+	font-size: 1.3em;
+}
+
 #areaPrincipal
 {
 	margin: 20 0;

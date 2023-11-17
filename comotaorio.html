@@ -23,7 +23,7 @@
 			</td>		
 			<nav>
 				<td style="align-items: right;">
-					<form>
+					<form id="opcoes">
 				   		<select id="UF" name="UF" onchange="carregarListaLocal(UF.value); carregarTabela(Local.value, DataHora.value, Intervalo.value);">
 							<div id="barra">">
 						</select>
@@ -49,7 +49,7 @@
 		<table id="tabela" name="tabela" class="tabela">
 		   	<tr class="tabelaLinhaImPar" style="text-align: center">
 			   	<th onclick="inverterOdemTabela(); atualizarTabela();" class="tooltip">
-			   		<span class="tooltiptext">Altera a ordem</span>
+			   		<span class="tooltiptext">Alterar a ordem</span>
 			   		Data/hora<img src="img\ordenação.png" style="vertical-align: bottom" width="20">
 			   	</th>	
 <!--
