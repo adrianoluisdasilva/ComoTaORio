@@ -1,0 +1,95 @@
+<!DOCTYPEe HTML>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>ComoTaORio</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/padraoEstilo.css">
+</head>
+<body onload="carregarListaUF(); carregarListaLocal(UF.value); carregarTabela(Local.value, DataHora.value, Intervalo.value);">
+	<div id="barra">
+		<table id="menu">
+			<header>
+				<td class="logotipo menuTemaVerdeClaro" style="width: 25%">
+					<a id="logotipo"  class="logotipo alturaEmDobro menuTemaVerdeClaro"
+					   href="comotaorio.com.br">Como tá o rio
+					</a>
+				</td>
+			</header>
+			<td>
+				<h4 style="width: 50px">
+				</h4>
+			</td>		
+			<nav>
+				<td style="align-items: right;">
+					<form id="opcoes">
+				   		<select id="UF" name="UF" onchange="carregarListaLocal(UF.value); carregarTabela(Local.value, DataHora.value, Intervalo.value);">
+							<div id="barra">">
+						</select>
+				   		&nbsp;&nbsp;&nbsp;
+				   		<select id="Local" name="Local" onchange="carregarTabela(Local.value, DataHora.value, Intervalo.value);">
+						</select>
+				   		&nbsp;&nbsp;&nbsp;
+				   		<select id="DataHora" name="DataHora" onchange="carregarTabela(Local.value, DataHora.value, Intervalo.value));">
+				   			<option value="24h">Últimas 24 horas</option>
+				   		</select>
+				   		&nbsp;&nbsp;&nbsp;
+				   		<label for="Intervalo">Intervalo</label>
+				   		<select id="Intervalo" name="Intervalo" onchange="carregarTabela(Local.value, DataHora.value, Intervalo.value));">
+				   			<option value="60">1 hora</option>
+				   		</select>
+					</form>
+				</td>				
+			</nav>
+		</table>
+	</div>
+
+ 	<div id="areaPrincipal">
+		<table id="tabela" name="tabela" class="tabela">
+		   	<tr class="tabelaLinhaImPar" style="text-align: center">
+			   	<th onclick="inverterOdemTabela(); atualizarTabela();" class="tooltip">
+			   		<span class="tooltiptext">Alterar a ordem</span>
+			   		Data/hora<img src="img\ordenação.png" style="vertical-align: bottom" width="20">
+			   	</th>	
+<!--
+			   	<th onclick="carregarTabela(Local.value, DataHora.value, Intervalo.value);" class="tooltip">
+-->
+				<th onclick="window.location.reload();" class="tooltip">
+					<span class="tooltiptext">Atualizar</span>
+			   		Nível (m)
+			   	</th>	
+				   <th onclick="window.location.reload();" class="tooltip">
+					<span class="tooltiptext">Atualizar</span>
+				   <img src="img\atualizar.png" style="vertical-align: bottom" width="20">
+			   </th>	
+			   <th><img src="img\régua.png" width="50"></th>
+			   	<th>
+					Acumulado
+				</th>	
+			</tr>
+			<tbody id="corpoTabela" name="corpoTabela">
+			</tbody>
+		<!--
+		   	<tr class="tabelaLinhaPar">
+		   	<tr class="tabelaLinhaImpar">
+		-->
+		</table>
+	    <footer id="rodape"  class="menuTemaClaro centralizado">
+			<a class="rodape"
+			   href="https://ciram.epagri.sc.gov.br/rios-online/">Fonte: Epagri / Ciram
+			</a>
+			<br>
+			<br>
+			<a class="rodape"
+			   href="http://comotaorio.app.br">comotaorio.app.br
+			</a>
+	    </footer>
+	</div>
+
+<!--
+	<script type="text/javascript" src="jquery/jquery-3.7.1.min.js"></script>
+-->
+	<script type="text/javascript" src="js/comotaorio.js"></script>
+</body>
+</html>
