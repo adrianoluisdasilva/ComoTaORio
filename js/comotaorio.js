@@ -355,6 +355,11 @@ function carregarTabela(parametroCodigoLocal, parametroDataHora, parametroInterv
       ' ,"nivel":"8.03"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"18/11/2023 01:00"'+
+      ' ,"nivel":"8.01"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
 /*
       ' },'+
       ' {"datahora":"18/11/2023 :00"'+
@@ -487,9 +492,10 @@ function carregarTabela(parametroCodigoLocal, parametroDataHora, parametroInterv
       {
          nivelAnterior = medicao.nivel;
       }
+/*
       variacaoCalculadaMetro = Math.round(parseInt((parseFloat(medicao.nivel) - parseFloat(nivelAnterior)) * 100)) / 100;
-      variacaoCalculadaMetro = (parseInt(medicao.nivel * 100) - parseInt(nivelAnterior*100)) / 100;
-
+*/
+      variacaoCalculadaMetro = Math.round(parseFloat(medicao.nivel * 100) - parseFloat(nivelAnterior*100)) / 100;
       if (  ( variacaoCalculadaMetro >= 0 && variacaoAnterior < 0)
          || ( variacaoCalculadaMetro <= 0 && variacaoAnterior > 0)
          )
