@@ -410,6 +410,11 @@ function carregarTabela(parametroCodigoLocal, parametroDataHora, parametroInterv
       ' ,"nivel":"5.86"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"18/11/2023 12:00"'+
+      ' ,"nivel":"5.58"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
 /*
       ' },'+
       ' {"datahora":"18/11/2023 :00"'+
