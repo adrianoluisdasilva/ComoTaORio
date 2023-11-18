@@ -148,8 +148,6 @@ function carregarTabela(parametroCodigoLocal, parametroDataHora, parametroInterv
       return false;
    }
 
-   history.pushState({}, null, 'comotaorio.app.br');
-   
    if (parametroCodigoLocal == 4216305)
    {
       var medicoesJSON = 
