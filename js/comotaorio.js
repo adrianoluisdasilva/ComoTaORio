@@ -350,9 +350,14 @@ function carregarTabela(parametroCodigoLocal, parametroDataHora, parametroInterv
       ' ,"nivel":"8.02"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"18/11/2023 00:00"'+
+      ' ,"nivel":"8.03"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
 /*
       ' },'+
-      ' {"datahora":"17/11/2023 :00"'+
+      ' {"datahora":"18/11/2023 :00"'+
       ' ,"nivel":""'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
