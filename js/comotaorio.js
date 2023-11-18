@@ -360,6 +360,26 @@ function carregarTabela(parametroCodigoLocal, parametroDataHora, parametroInterv
       ' ,"nivel":"8.01"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"18/11/2023 02:00"'+
+      ' ,"nivel":"7.94"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"18/11/2023 03:00"'+
+      ' ,"nivel":"7.83"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"18/11/2023 04:00"'+
+      ' ,"nivel":"7.67"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"18/11/2023 05:00"'+
+      ' ,"nivel":"7.45"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
 /*
       ' },'+
       ' {"datahora":"18/11/2023 :00"'+
