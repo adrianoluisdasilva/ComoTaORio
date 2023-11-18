@@ -386,8 +386,8 @@ function carregarTabela(parametroCodigoLocal, parametroDataHora, parametroInterv
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
       ' },'+
-      ' {"datahora":"18/11/2023 06:00"'+
-      ' ,"nivel":"7.21"'+
+      ' {"datahora":"18/11/2023 07:00"'+
+      ' ,"nivel":"6.95"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
 /*
