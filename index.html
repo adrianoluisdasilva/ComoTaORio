@@ -46,6 +46,13 @@
 	</div>
 
  	<div id="areaPrincipal">
+
+		<h4 style="background:yellow; text-align: center;">
+			Esse site é atualizado somente nos dias com risco de enchente,
+			<br>
+			conforme previsão de chuva e possibilidade de cheia divulgadas pela Defesa Civil.
+		</h4>
+
 		<table id="tabela" name="tabela" class="tabela">
 		   	<tr class="tabelaLinhaImPar" style="text-align: center">
 			   	<th onclick="inverterOdemTabela(); atualizarTabela();" class="tooltip">
@@ -55,7 +62,7 @@
 <!--
 			   	<th onclick="carregarTabela(Local.value, DataHora.value, Intervalo.value);" class="tooltip">
 -->
-				<th onclick="window.location.reload();" class="tooltip">
+				<th onclick="window.location.reload(true);" class="tooltip">
 					<span class="tooltiptext">Atualizar</span>
 			   		Nível (m)
 			   	</th>	
