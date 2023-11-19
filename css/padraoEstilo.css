@@ -27,6 +27,7 @@ th
 #logotipo
 {
 	margin: 0;
+	background: rgba(0,0,0,0);
 }
 
 #areaPrincipal
@@ -34,15 +35,76 @@ th
 	margin: 20 0;
 }
 
+.rodape
+{
+	text-decoration: none;
+	color: black;
 }
+
+@media (max-width: 1024px) and (orientation: portrait)
+{
+	#areaPrincipal
+	{
+		margin: 80 0;
+	}
+		#opcoes
+	{
+		font-size: 2em;
+	}
+
+	.tabela
+	{
+		font-size: 2em;
+	}
+
+	.logotipo
+	{
+		font-size: 1.3em;
+	}
+
+	.rodape
+	{
+		font-size: 1.3em;
+	}
+	
+}
+
+@media (max-width: 600px) and (orientation: portrait)
+{
+	#areaPrincipal
+	{
+		margin: 120 0;
+	}
+		#opcoes
+	{
+		font-size: 1.8em;
+	}
+
+	.tabela
+	{
+		font-size: 1.5em;
+	}
+
+	.logotipo
+	{
+		font-size: 1.3em;
+	}
+
+	.rodape
+	{
+		font-size: 1.3em;
+	}
+	
+	h4
+	{
+		font-size: 1.3em;
+	}
+	
+}
+
 .fonteArial
 {
 	font-family: "Arial"; "Sans-serif";
-}
-
-.fonteReduzido
-{
-	font-size: 0.5em;
 }
 
 .centralizado
@@ -66,26 +128,13 @@ th
 	background: linear-gradient(to right, #2cc988, #58efab);
 }
 
-.alinhadoDireita
-{
-	text-align: right;
-}
-
 .tabela
 {
 	margin: 0 auto;
 	border: 0;
 	border-spacing: 0;
 	text-align: center;
-	font-size: 150%;
 }
-
-.divCentralizada
-{
-	display: grid;
-	place-items: center
-}
-
 
 <!-- Tema claro -->
 .temaClaro

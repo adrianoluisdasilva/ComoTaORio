@@ -145,62 +145,318 @@ function carregarTabela(parametroCodigoLocal, parametroDataHora, parametroInterv
       ||	document.getElementById('Local').value == null
       )
    {
-      alert('return false');
       return false;
    }
 
    if (parametroCodigoLocal == 4216305)
    {
       var medicoesJSON = 
-      '[{"datahora":"01/01/1900 08:00"' +
-      ' ,"nivel":"4.5"'+
+      '[{"datahora":"16/11/2023 08:00"' +
+      ' ,"nivel":"0.56"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
       ' },'+
-      ' {"datahora":"01/01/1900 09:00"'+
-      ' ,"nivel":"4.55"'+
+      ' {"datahora":"16/11/2023 09:00"'+
+      ' ,"nivel":"0.56"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
       ' },'+
-      ' {"datahora":"01/01/1900 10:00"'+
-      ' ,"nivel":"4.72"'+
+      ' {"datahora":"16/11/2023 10:00"'+
+      ' ,"nivel":"0.64"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
       ' },'+
-      ' {"datahora":"01/01/1900 11:00"'+
-      ' ,"nivel":"5.27"'+
+      ' {"datahora":"16/11/2023 11:00"'+
+      ' ,"nivel":"0.79"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
       ' },'+
-      ' {"datahora":"01/01/1900 12:00"'+
+      ' {"datahora":"16/11/2023 12:00"'+
+      ' ,"nivel":"1.15"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"16/11/2023 13:00"'+
+      ' ,"nivel":"1.65"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"16/11/2023 14:00"'+
+      ' ,"nivel":"2.22"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"16/11/2023 15:00"'+
+      ' ,"nivel":"2.89"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"16/11/2023 16:00"'+
+      ' ,"nivel":"3.63"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"16/11/2023 17:00"'+
+      ' ,"nivel":"4.35"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"16/11/2023 18:00"'+
+      ' ,"nivel":"4.91"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"16/11/2023 19:00"'+
+      ' ,"nivel":"5.33"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"16/11/2023 20:00"'+
+      ' ,"nivel":"5.65"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"16/11/2023 21:00"'+
+      ' ,"nivel":"5.92"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"16/11/2023 22:00"'+
+      ' ,"nivel":"6.12"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"16/11/2023 23:00"'+
+      ' ,"nivel":"6.24"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"17/11/2023 00:00"'+
       ' ,"nivel":"6.34"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
       ' },'+
-      ' {"datahora":"01/01/1900 13:00"'+
-      ' ,"nivel":"7"'+
+      ' {"datahora":"17/11/2023 01:00"'+
+      ' ,"nivel":"6.37"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
       ' },'+
-      ' {"datahora":"01/01/1900 14:00"'+
-      ' ,"nivel":"7.00"'+
+      ' {"datahora":"17/11/2023 02:00"'+
+      ' ,"nivel":"6.36"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
       ' },'+
-      ' {"datahora":"01/01/1900 15:00"'+
-      ' ,"nivel":"6.99"'+
+      ' {"datahora":"17/11/2023 03:00"'+
+      ' ,"nivel":"6.35"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
       ' },'+
-      ' {"datahora":"01/01/1900 16:00"'+
-      ' ,"nivel":"6.45"'+
+      ' {"datahora":"17/11/2023 04:00"'+
+      ' ,"nivel":"6.27"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
       ' },'+
-      ' {"datahora":"01/01/1900 17:00"'+
-      ' ,"nivel":"5.12"'+
+      ' {"datahora":"17/11/2023 05:00"'+
+      ' ,"nivel":"6.16"'+
       ' ,"variacao": ""'+
       ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"17/11/2023 06:00"'+
+      ' ,"nivel":"6.02"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"17/11/2023 07:00"'+
+      ' ,"nivel":"5.91"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"17/11/2023 08:00"'+
+      ' ,"nivel":"5.84"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"17/11/2023 09:00"'+
+      ' ,"nivel":"5.84"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"17/11/2023 10:00"'+
+      ' ,"nivel":"5.90"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"17/11/2023 11:00"'+
+      ' ,"nivel":"6.02"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"17/11/2023 12:00"'+
+      ' ,"nivel":"6.19"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"17/11/2023 13:00"'+
+      ' ,"nivel":"6.35"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"17/11/2023 14:00"'+
+      ' ,"nivel":"6.63"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"17/11/2023 15:00"'+
+      ' ,"nivel":"6.84"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"17/11/2023 16:00"'+
+      ' ,"nivel":"7.05"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"17/11/2023 17:00"'+
+      ' ,"nivel":"7.25"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"17/11/2023 18:00"'+
+      ' ,"nivel":"7.47"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"17/11/2023 19:00"'+
+      ' ,"nivel":"7.65"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"17/11/2023 20:00"'+
+      ' ,"nivel":"7.77"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"17/11/2023 21:00"'+
+      ' ,"nivel":"7.88"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"17/11/2023 22:00"'+
+      ' ,"nivel":"7.97"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"17/11/2023 23:00"'+
+      ' ,"nivel":"8.02"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"18/11/2023 00:00"'+
+      ' ,"nivel":"8.03"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"18/11/2023 01:00"'+
+      ' ,"nivel":"8.01"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"18/11/2023 02:00"'+
+      ' ,"nivel":"7.94"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"18/11/2023 03:00"'+
+      ' ,"nivel":"7.83"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"18/11/2023 04:00"'+
+      ' ,"nivel":"7.67"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"18/11/2023 05:00"'+
+      ' ,"nivel":"7.45"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"18/11/2023 06:00"'+
+      ' ,"nivel":"7.21"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"18/11/2023 07:00"'+
+      ' ,"nivel":"6.95"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"18/11/2023 08:00"'+
+      ' ,"nivel":"6.68"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"18/11/2023 09:00"'+
+      ' ,"nivel":"6.41"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"18/11/2023 10:00"'+
+      ' ,"nivel":"6.13"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"18/11/2023 11:00"'+
+      ' ,"nivel":"5.86"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"18/11/2023 12:00"'+
+      ' ,"nivel":"5.58"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"18/11/2023 13:00"'+
+      ' ,"nivel":"5.31"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"18/11/2023 14:00"'+
+      ' ,"nivel":"5.01"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"18/11/2023 15:00"'+
+      ' ,"nivel":"4.74"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"18/11/2023 16:00"'+
+      ' ,"nivel":"4.47"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"18/11/2023 17:00"'+
+      ' ,"nivel":"4.21"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"18/11/2023 18:00"'+
+      ' ,"nivel":"3.98"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+      ' },'+
+      ' {"datahora":"18/11/2023 19:00"'+
+      ' ,"nivel":"3.77"'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+/*
+      ' },'+
+      ' {"datahora":"18/11/2023 :00"'+
+      ' ,"nivel":""'+
+      ' ,"variacao": ""'+
+      ' ,"variacaoAcumulada": ""'+
+*/
       ' }   ]';
    } else if (parametroCodigoLocal == 4202404)
    {
@@ -326,8 +582,10 @@ function carregarTabela(parametroCodigoLocal, parametroDataHora, parametroInterv
       {
          nivelAnterior = medicao.nivel;
       }
-      variacaoCalculadaMetro = Math.round(((medicao.nivel - nivelAnterior) * 100).toFixed(2)) / 100;
-
+/*
+      variacaoCalculadaMetro = Math.round(parseInt((parseFloat(medicao.nivel) - parseFloat(nivelAnterior)) * 100)) / 100;
+*/
+      variacaoCalculadaMetro = Math.round(parseFloat(medicao.nivel * 100) - parseFloat(nivelAnterior*100)) / 100;
       if (  ( variacaoCalculadaMetro >= 0 && variacaoAnterior < 0)
          || ( variacaoCalculadaMetro <= 0 && variacaoAnterior > 0)
          )
@@ -400,7 +658,7 @@ function atualizarTabela()
    }
    else if (variacaoCalculadaMetroAbsoluto < 1)
    {
-      variacao.innerHTML = (variacaoCalculadaMetroAbsoluto * 100) + ' cm';
+      variacao.innerHTML = parseInt(variacaoCalculadaMetroAbsoluto * 100) + ' cm';
    } else
    {
       variacao.innerHTML = new Intl.NumberFormat('pt-br', duasCasasDecimais).format(variacaoCalculadaMetroAbsoluto) + ' m';
@@ -414,7 +672,7 @@ function atualizarTabela()
       }
    else if (variacaoAcumuladaMetroAbsoluto < 1)
    {
-      variacaoAcumulada.innerHTML = (variacaoAcumuladaMetroAbsoluto * 100) + ' cm';
+      variacaoAcumulada.innerHTML = parseInt(variacaoAcumuladaMetroAbsoluto * 100) + ' cm';
    } else
    {
       variacaoAcumulada.innerHTML = new Intl.NumberFormat('pt-br', duasCasasDecimais).format(variacaoAcumuladaMetroAbsoluto) + ' m';
