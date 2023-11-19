@@ -23,7 +23,7 @@
 			</td>		
 			<nav>
 				<td style="align-items: right;">
-					<form>
+					<form id="opcoes">
 				   		<select id="UF" name="UF" onchange="carregarListaLocal(UF.value); carregarTabela(Local.value, DataHora.value, Intervalo.value);">
 							<div id="barra">">
 						</select>
@@ -46,21 +46,31 @@
 	</div>
 
  	<div id="areaPrincipal">
+
+		<h4 style="background:yellow; text-align: center;">
+			Esse site é atualizado somente nos dias com risco de enchente,
+			<br>
+			conforme previsão de chuva e possibilidade de cheia divulgadas pela Defesa Civil.
+		</h4>
+
 		<table id="tabela" name="tabela" class="tabela">
 		   	<tr class="tabelaLinhaImPar" style="text-align: center">
 			   	<th onclick="inverterOdemTabela(); atualizarTabela();" class="tooltip">
-			   		<span class="tooltiptext">Altera a ordem</span>
+			   		<span class="tooltiptext">Alterar a ordem</span>
 			   		Data/hora<img src="img\ordenação.png" style="vertical-align: bottom" width="20">
 			   	</th>	
 <!--
 			   	<th onclick="carregarTabela(Local.value, DataHora.value, Intervalo.value);" class="tooltip">
 -->
-				<th onclick="window.location.reload();" class="tooltip">
-						<span class="tooltiptext">Atualizar</span>
-			   		Nível (m)&nbsp;&nbsp;<img src="img\atualizar.png" style="vertical-align: bottom" width="20">
+				<th onclick="window.location.reload(true);" class="tooltip">
+					<span class="tooltiptext">Atualizar</span>
+			   		Nível (m)
 			   	</th>	
-			   	<th></th>
-			   	<th><img src="img\régua.png" width="50"></th>
+				   <th onclick="window.location.reload();" class="tooltip">
+					<span class="tooltiptext">Atualizar</span>
+				   <img src="img\atualizar.png" style="vertical-align: bottom" width="20">
+			   </th>	
+			   <th><img src="img\régua.png" width="50"></th>
 			   	<th>
 					Acumulado
 				</th>	
@@ -73,13 +83,18 @@
 		-->
 		</table>
 	    <footer id="rodape"  class="menuTemaClaro centralizado">
-			<a style="text-decoration: none; color: black;"
+			<a class="rodape"
+			   href="https://ciram.epagri.sc.gov.br/rios-online/">Fonte: Epagri / Ciram
+			</a>
+			<br>
+			<br>
+			<a class="rodape"
 			   href="http://comotaorio.app.br">comotaorio.app.br
 			</a>
 	    </footer>
 	</div>
 
-<!-->
+<!--
 	<script type="text/javascript" src="jquery/jquery-3.7.1.min.js"></script>
 -->
 	<script type="text/javascript" src="js/comotaorio.js"></script>
